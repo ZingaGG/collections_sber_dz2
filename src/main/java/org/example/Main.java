@@ -16,15 +16,15 @@ public class Main {
 
         PhoneBook phoneBook = new PhoneBook();
 
-        phoneBook.add("Максим", "123-456");
-        phoneBook.add("Антон", "789-012");
-        phoneBook.add("Анна", "234-567");
-        phoneBook.add("Анна", "234-568");
+        phoneBook.add("Ivanov", "123-456");
+        phoneBook.add("Kirillov", "789-012");
+        phoneBook.add("Dolmatov", "234-567");
+        phoneBook.add("Dolmatov", "234-568");
 
-        System.out.println("Номера Максима: " + phoneBook.get("Максим"));
-        System.out.println("Номера Антона: " + phoneBook.get("Антон"));
-        System.out.println("Номера Анны: " + phoneBook.get("Анна"));
-        System.out.println("Номера Кирилла" + phoneBook.get("Кирилл"));
+        System.out.println("Ivanov phone numbers: " + phoneBook.get("Ivanov"));
+        System.out.println("Kirillov phone numbers: " + phoneBook.get("Kirillov"));
+        System.out.println("Dolmatov phone numbers: " + phoneBook.get("Dolmatov"));
+        System.out.println("Bunin phone numbers:" + phoneBook.get("Bunin"));
     }
 
     // Use this method to count the amount of unique words (Task 1)
